@@ -1,0 +1,223 @@
+package com.jaffar;
+
+
+import javax.security.auth.callback.CallbackHandler;
+import java.util.Scanner;
+import java.util.Random;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //**********************************
+//
+//        int[] values = new int[5];
+//        for (int count = 0; count < 5; count++)
+//            values[count] = count + 1;
+//        for (int count = 0; count < 5; count++)
+//            System.out.println(values[count]);
+
+
+        //***************************************
+
+//        Random rand = new Random();
+//
+//        int check;
+//
+//        int MAX = 26;
+//
+//        char []alphabet = { 'a', 'b', 'c', 'd', 'e', 'f', 'g',
+//                'h', 'i', 'j', 'k', 'l', 'm', 'n',
+//                'o', 'p', 'q', 'r', 's', 't', 'u',
+//                'v', 'w', 'x', 'y', 'z' };
+//
+//        String res = "";
+//        for (int i = 0; i < 3; i++) {
+//            res = res + alphabet[rand.nextInt(3) % MAX];
+//        }
+//        //(int) (Math.random() * 3 % MAX)
+//        //alphabet
+//        String c = res.toUpperCase();
+//        System.out.print("Number plate is : ");
+//        System.out.print(c+" ");
+//        //number
+//        int[] arr = new int[3];
+//        for (int i =0 ;i <= 2 ; i++)
+//        {
+//            arr[i] = rand.nextInt(10);
+//        }
+//        for (int i =0 ;i <= 2 ; i++)
+//        {
+//            System.out.print(arr[i]);
+//        }
+
+//***************************************
+        Scanner obj = new Scanner(System.in);
+//
+//         double  rainfallarr[] = new double[12];
+//
+//        System.out.println("Enter rain value in the following :");
+//
+//         for (int i =0 ;i<=11;i++)
+//         {
+//                 rainfallarr[i] = obj.nextDouble();
+//         }
+//
+//            for (int i = 0; i <= 11; i++) {
+//                if(rainfallarr[i] >=1) {
+//                System.out.println(rainfallarr[i]);
+//                }else
+//                {
+//                    System.out.println("Exception should in be in 1");
+//                }
+//            }
+//
+//
+//         //total rainfall of the year
+//        int total = 0;
+//        for (int i =0 ;i<=11;i++)
+//        {
+//            total +=rainfallarr[i];
+//        }
+//        System.out.println("Total rainfall of the year :  "+total);
+//        //average
+//        for (int i =0 ;i<=11;i++)
+//        {
+//            total +=rainfallarr[i];
+//        }
+//        int average = total/3;
+//
+//        System.out.println("Average monthly rain fall is : "+average);
+//        //month with the most rain
+//
+//        double MAX = 0.0;
+//        for (int i =0 ;i<=11;i++)
+//        {
+//            if(MAX < rainfallarr[i])
+//            {
+//                MAX = rainfallarr[i];
+//            }
+//        }
+//
+//        System.out.println("Maximum value is : "+MAX);
+//
+//        //least rain month
+//        double MIN = Integer.MAX_VALUE;
+//        for (int i =0 ;i<=11;i++)
+//        {
+//            if(MIN > rainfallarr[i])
+//            {
+//                MIN = rainfallarr[i];
+//            }
+//        }
+//        System.out.println("Minimum value : "+MIN);
+//
+//
+//************************************
+//         int counter = 0;
+//         while(true)
+//         {
+//
+//             System.out.print("Enter number : ");
+//             int number = obj.nextInt();
+//
+//
+//             System.out.print("Number generated : ");
+//             int ran = rand.nextInt(10);
+//
+//             System.out.println(ran);
+//             if(number == ran)
+//             {
+//                 System.out.println("Equal");
+//                 System.out.println("Number of guesses : "+a);
+//                 break;
+//             }
+//             else if(number > ran)
+//             {
+//                 System.out.println("Greater Try again !!!!!");
+//             }
+//             else if(number < ran)
+//             {
+//                 System.out.println("Less Try again !!!!!");
+//             }
+//             counter = counter + 1 ;
+//         }
+
+        //****************************
+//
+//        int com_dise;
+//        int com_user;
+//        int comadd = 0;
+//        int useradd = 0;
+//        int counterofcomputer=0;
+//        int counterofuser =0;
+//        for (int i = 1 ; i<=10 ; i++)
+//        {
+//             com_dise =rand.nextInt(6);
+//             //System.out.print(com_dise);
+//             comadd +=com_dise;
+//
+//             com_user =rand.nextInt(6);
+//            // System.out.print(com_user);
+//             useradd +=com_user;
+//
+//            if(com_user == com_dise)
+//            {
+//                System.out.println("Tie");
+//                break;
+//            }
+//            else if(com_user > com_dise)
+//            {
+//                System.out.println("User wins");
+//                counterofuser = counterofuser + 1;
+//            }
+//            else
+//            {
+//                System.out.println("Computer wins");
+//                counterofcomputer = counterofcomputer +1;
+//            }
+//
+//
+//
+//        }
+//        System.out.println("Total rank of computer:  "+comadd);
+//
+//        System.out.println("Total rank of user:  "+useradd);
+//
+//        System.out.println("\t\tComputer wins "+(counterofcomputer)+" Times");
+//
+//        System.out.println("\t\tUser wins "+(counterofuser)+" Times");
+//
+//        if(counterofcomputer > counterofuser)
+//        {
+//            System.out.println("\n\n*********Computer Wins Finally*********");
+//        }
+//        else
+//        {
+//            System.out.println("\n\n*********User Wins Finally*********");
+//        }
+
+        //***********************************
+
+//        System.out.println("Enter your Sentence :  ");
+//       String sen = obj.nextLine();
+//       int length = sen.length();
+//        char a;
+//       for (int i = 0; i< length ; i++)
+//       {
+//           char character = sen.charAt(i);
+//           if(Character.isUpperCase(character) || sen.lastIndexOf('\\')=='.')
+//           {
+//               System.out.println("Code is Beutifyyyy");
+//               break;
+//           }
+//           else if(Character.isLowerCase(character) || sen.lastIndexOf('\\')!='.')
+//           {
+//               a =Character.toUpperCase(character);
+//
+//               System.out.println(a+""+sen.substring(1)+".");
+//               break;
+//           }
+//
+//       }
+    }
+}
